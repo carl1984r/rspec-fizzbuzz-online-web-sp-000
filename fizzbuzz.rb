@@ -5,10 +5,9 @@ def fizzbuzz(int)
     "Fizz"
   elsif int % 5 == 0
     "Buzz"
-  elsif int % 15 == 0
-    "Fizzbuzz"
+  elsif int % 4 == 0
+    return nil 
   else
-    int % 4 == 0
-    return nil
+    "fizzbuzz"
   end
 end

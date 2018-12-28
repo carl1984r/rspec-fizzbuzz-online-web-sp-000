@@ -6,8 +6,8 @@ def fizzbuzz(int)
   elsif int % 5 == 0
     "Buzz"
   elsif int % 3 == 0 && int % 5 == 0
-    "Fizzbuzz"  
-  else 
-    return nil  
+    "Fizzbuzz"
+  else
+    return nil
   end
 end

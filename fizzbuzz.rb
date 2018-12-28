@@ -8,6 +8,6 @@ def fizzbuzz(int)
   elsif int % 4 == 0
     return nil
   else
-    "Fizzbuzz"
+    "FizzBuzz"
   end
 end
